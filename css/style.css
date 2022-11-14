@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.contanier{
+    display: flex;
+    gap: 30px;
+}
+.card{
+    width: 300px;
+    height: 500px;
+    background-color: aqua;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.card__text{
+    text-align: center;
+    position: absolute;
+    top: 465px;
+}
+button{
+    padding: 10px 30px;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin: 15px;
+}
+.card:hover .card__text{
+    top: 260px;
+    transition: 2s;
+}
+.card1{
+    
+    background-size: 100%;
+    background:linear-gradient(red,gold,rgb(91, 255, 91),white);
+    
+}
+.card2{
+    background-size: 100%;
+    background:linear-gradient(red,gold,rgb(91, 255, 91),white);
+    
+}
+.card3{
+    background-size: 100%;
+    background:linear-gradient(red,gold,rgb(91, 255, 91),white);
+    
+}
+.card4{
+    background-size: 100%;
+    background:linear-gradient(red,gold,rgb(91, 255, 91),white);
+    
+}
